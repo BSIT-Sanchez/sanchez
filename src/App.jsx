@@ -82,7 +82,7 @@ function App() {
       {/*display encrypted or decrypted data */}
       {encryptedData || decryptedData ? (
         <div className='content'>
-          <label>{screen === "encrypt" ? "ENCRYPTED" : "DECRPTED"} DATA</label>
+          <label>{screen === "encrypt" ? "ENCRYPTED" : "DECRYPTED"} DATA</label>
           <p>{screen === "encrypt" ? encryptedData : decryptedData}</p>
 
         </div>
